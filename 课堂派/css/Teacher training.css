@@ -229,7 +229,7 @@ a{
 .banner .mainBox .choose .chooseTwo{
 	display: inline-block;
 	float: left;
-	width: 120px;
+	width: auto;
 }
 .banner .mainBox .choose .bottomline1{
 	width: 80px;
