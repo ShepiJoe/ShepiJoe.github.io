@@ -35,6 +35,7 @@ a{
 
 .lhh_nav{
     margin-left: 80px;
+    margin-bottom: 0px;
     width: 780px;
     height: 60px;
     list-style: none;
@@ -51,6 +52,8 @@ a{
     margin-right: 20px;
     cursor: pointer;
     text-align: center;
+    position: relative;
+    z-index: 9;
 }
 
 @media screen and (max-width: 1000px) {
@@ -88,7 +91,7 @@ a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
 }
 .lhh_header>.lhh_nav>li:hover{
     background: rgba(0,0,0,0.2);
@@ -104,7 +107,6 @@ a{
     float: left;
     display: none;
     box-shadow: 0px 0px 10px -2px;
-    z-index: 3;
 }
 .lhh_header>.lhh_nav>li>.lhh_uls>li{
     width: 100%;
@@ -157,7 +159,7 @@ a{
 .lhh_header>.lhh_nav>li>.lhh_ull>li:nth-of-type(2){
     margin-bottom: 10px;
 }
-/*ͷ���ұ�*/
+/*头部右边*/
 .lhh_header>.lhh_header_right{
     position: relative;
     list-style: none;
