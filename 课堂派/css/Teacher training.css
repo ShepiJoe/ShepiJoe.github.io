@@ -211,7 +211,7 @@ a{
 /*文字部分*/
 .banner .mainBox .choose{
 	margin-top: 24px;
-	width: 310px;
+	width: auto;
 	height: 50px;
 	/*border: 1px solid black;*/
 	font-size: 24px;
@@ -224,7 +224,7 @@ a{
 .banner .mainBox .choose .chooseOne{
 	display: inline-block;
 	float: left;
-	width: 120px;
+	width: auto;
 }
 .banner .mainBox .choose .chooseTwo{
 	display: inline-block;
