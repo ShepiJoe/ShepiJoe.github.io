@@ -11,11 +11,11 @@
 		<div class="lhh_header">
 		    <a href="" class="lhh_ketang"><img src="../img/zhounx/logo.png"/></a> 
 		    <ul class="lhh_nav">
-		        <li style="background: #2C58AB;"><a href="">首页</a></li>
-		        <li><a href=""><img src="../img/zhounx/huawenmuke.png"/></a></li>
-		        <li><a href="">教师培训</a></li>
-		        <li><a href="">渠道合作</a></li>
-		        <li><a href="">解决方案</a>
+		        <li class="lis"><a href="">首页</a></li>
+		        <li class="lis"><a href=""><img src="../img/zhounx/huawenmuke.png"/></a></li>
+		        <li class="lis" style="background: #2C58AB;"><a href="">教师培训</a></li>
+		        <li class="lis"><a href="">渠道合作</a></li>
+		        <li class="lis"><a href="">解决方案</a>
 		            <ul class="lhh_ull">
 		                <li><a href="">申请机构版</a></li>
 		                <li><a href="">本地化部署</a></li>
@@ -309,6 +309,7 @@
 			var bottom2 = document.getElementsByClassName("bottomline2")[0];
 			var trains = document.getElementsByClassName("train");
 			var plays = document.getElementsByClassName("play");
+			var lis = document.getElementsByClassName("lis");
 			choose1.onclick=function(){
 				bottom2.style.display = "none";
 				bottom1.style.display = "block";
@@ -320,7 +321,7 @@
 				bottom2.style.display = "block";
 				trains[0].style.display = "none";
 				trains[1].style.display = "block";
-			}
+			}	
 		</script>
 	</body>
 </html>
