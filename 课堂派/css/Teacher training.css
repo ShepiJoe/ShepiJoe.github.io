@@ -27,7 +27,7 @@ a{
 .lhh_header>.lhh_ketang>img{
     margin-top: 12px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1242px) {
     .lhh_ketang{
         display: none;
     }
@@ -189,7 +189,15 @@ a{
     width: 50px;
     border: 1px solid #357ae8;
     background: #357ae8;
-    
+}
+.lhh_header>.lhh_header_right>.lhh_denglu:hover{
+	border: 1px solid #357ae8;
+}
+.lhh_header>.lhh_header_right>.lhh_denglu:hover>a{
+	color: #357ae8;
+}
+.lhh_header>.lhh_header_right>.lhh_zhuce:hover{
+	background: #4D90FE;
 }
 
 
@@ -254,7 +262,7 @@ a{
 /*视频部分*/
 .banner .mainBox .viedoss{
 	width: 97%;
-	height: 700px;
+	height: 720px;
 	padding: 0px 0px  3% 3%;
 	background: white;
 }
@@ -286,7 +294,7 @@ a{
 }
 .banner .mainBox .viedoss .train .box .photos .imgs{
 	width: 100%;
-	height: auto;
+	height: 100px;
 	margin: 0px;
 	padding: 0px;
 }
